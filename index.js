@@ -54,8 +54,10 @@ const questions = [
     }
 ];
 
+
+
 inquirer.prompt(questions).then((userAnswers) => {
-    fs.writeFile('README.md', generateMarkdown(userAnswers));
+    fs.writeFileSync('README.md', generateMarkdown(userAnswers));
 });
 
 
