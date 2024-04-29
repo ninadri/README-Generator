@@ -49,9 +49,9 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What is your email address',
+        message: 'What is your email address?',
         name: 'email'
-    },
+    }
 ];
 
 inquirer.prompt(questions).then((userAnswers) => {
