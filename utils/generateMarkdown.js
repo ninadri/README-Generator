@@ -71,6 +71,7 @@ ${renderLicenseBadge(license)}
 
 ## Contributing
 ${contributing}
+
 ---
 
 ## Tests
